@@ -1,0 +1,61 @@
+$maxWidthContainer: 1400;
+
+$maxMobileWidth: 576px;
+$maxTabletWidth: 1024px;
+
+$amin-time: 200ms;
+
+$border-radius: 10px;
+$shadow: 0px 4px 0px 0px;
+$shadow-active: 0px 1px 0px 0px;
+
+$c_white: #fff;
+
+$c_theme-blue_main-bg: #3a4764;
+$c_theme-blue_toggle-keypad-bg: #232c43;
+$c_theme-blue_screen-bg: #182034;
+$c_theme-blue_del-key-bg: #637097;
+$c_theme-blue_del-key-bg-hover: #a2b2e1;
+$c_theme-blue_del-key-shadow: $shadow #404e72;
+$c_theme-blue_del-key-shadow-active: $shadow-active #404e72;
+$c_theme-blue_equal-key-bg: #d03f2f;
+$c_theme-blue_equal-key-bg-hover: #f96b5b;
+$c_theme-blue_equal-key-shadow: $shadow #93261a;
+$c_theme-blue_equal-key-shadow-active: $shadow-active #93261a;
+$c_theme-blue_main-key-bg: #eae3dc;
+$c_theme-blue_main-key-shadow: $shadow #b4a597;
+$c_theme-blue_main-key-shadow-active: $shadow-active #b4a597;
+$c_theme-blue_main-key-text: #444b5a;
+
+$c_theme-white_main-bg: #e6e6e6;
+$c_theme-white_toggle-keypad-bg: #d1cccc;
+$c_theme-white_screen-bg: #ededed;
+$c_theme-white_del-key-bg: #377f86;
+$c_theme-white_del-key-bg-hover: #62b5bc;
+$c_theme-white_del-key-shadow: $shadow #1b5f65;
+$c_theme-white_del-key-shadow-active: $shadow-active #1b5f65;
+$c_theme-white_equal-key-bg: #ca5502;
+$c_theme-white_equal-key-bg-hover: #ff8a38;
+$c_theme-white_equal-key-shadow: $shadow #893901;
+$c_theme-white_equal-key-shadow-active: $shadow-active #893901;
+$c_theme-white_main-key-bg: #e5e4e1;
+$c_theme-white_main-key-shadow: $shadow #a69d91;
+$c_theme-white_main-key-shadow-active: $shadow-active #a69d91;
+$c_theme-white_main-key-text: #35352c;
+
+$c_theme-purple_main-bg: #160628;
+$c_theme-purple_toggle-keypad-screen-bg: #1d0934;
+$c_theme-purple_del-key-bg: #58077d;
+$c_theme-purple_del-key-bg-hover: #8631af;
+$c_theme-purple_del-key-shadow: $shadow #bc15f4;
+$c_theme-purple_del-key-shadow-active: $shadow-active #bc15f4;
+$c_theme-purple_equal-key-bg: #00e0d1;
+$c_theme-purple_equal-key-bg-hover: #93fff8;
+$c_theme-purple_equal-key-shadow: $shadow #6cf9f2;
+$c_theme-purple_equal-key-shadow-active: $shadow-active #6cf9f2;
+$c_theme-purple_equal-key-text: #1b2428;
+$c_theme-purple_main-key-bg: #341c4f;
+$c_theme-purple_main-key-bg-hover: #6c34ac;
+$c_theme-purple_main-key-shadow: $shadow #871c9c;
+$c_theme-purple_main-key-shadow-active: $shadow-active #871c9c;
+$c_theme-purple_main-key-text: #ffe53d;

@@ -1,0 +1,31 @@
+%main-text {
+  font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+  @include adaptive-value('font-size', 40, 32);
+  font-weight: 700;
+  @include adaptive-value('line-height', 37, 29);
+  @include adaptive-value('letter-spacing', -0.67, -0.53);
+};
+
+%secondary-text {
+  @include adaptive-value('font-size', 28, 20);
+  @include adaptive-value('line-height', 26, 18);
+  @include adaptive-value('letter-spacing', -0.47, -0.33);
+};
+
+%screen-text {
+  @include adaptive-value('font-size', 56, 40);
+  @include adaptive-value('line-height', 52, 37);
+  @include adaptive-value('letter-spacing', -0.93, -0.67);
+};
+
+%logo-text {
+  font-size: 32px;
+  line-height: 29px;
+  letter-spacing: -0.53px;
+};
+
+%small-text {
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0px;
+};
