@@ -9,6 +9,7 @@
   const previousValue = ref('');
   const operation = ref('');
   const operationIsActive = ref(false);
+  const calculated = ref(false);
 
   const remove = () => {
     output.value = '';
@@ -19,12 +20,14 @@
     previousValue.value = '';
     operation.value = '';
     operationIsActive.value = false;
+    calculated.value = false;
   };
 
   const addNumber = (number: string) => {
-    if (operationIsActive.value) {
+    if (operationIsActive.value || calculated.value) {
       output.value = '';
       operationIsActive.value = false;
+      calculated.value = false;
     }
 
     output.value += number;
@@ -41,6 +44,10 @@
   };
 
   const setOperation = (operationName: string) => {
+    if (previousValue.value) {
+      calculate()
+    }
+
     operation.value = operationName;
     previousValue.value = output.value;
     operationIsActive.value = true;
@@ -72,6 +79,8 @@
         sum = 0;
     }
 
+    previousValue.value = '';
+    calculated.value = true;
     output.value = sum.toString();
   };
 </script>
