@@ -34,13 +34,13 @@
   };
 
   const addDot = () => {
-    const dot = '.';
+    const dot = output.value === '' ? '0.' : '.';
 
     if (output.value.includes(dot)) {
       return;
     }
 
-    output.value += dot;
+    addNumber(dot);
   };
 
   const setOperation = (operationName: string) => {
