@@ -22,7 +22,8 @@ defineProps<Props>();
 .screen {
   display: flex;
   justify-content: end;
-  max-width: $max-content-width;
+  width: 0;
+  min-width: 100%;
   border-radius: $border-radius;
   @include adaptive-value('padding-top', 40, 29);
   @include adaptive-value('padding-inline', 32, 24);
