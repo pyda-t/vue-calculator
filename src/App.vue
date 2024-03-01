@@ -47,7 +47,7 @@
       display: grid;
       row-gap: 32px;
       width: 100%;
-      max-width: 540px;
+      max-width: $max-content-width;
       height: max-content;
     }
   }
